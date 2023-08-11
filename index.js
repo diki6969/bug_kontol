@@ -3,7 +3,7 @@
 › Base Ori Haikal
 
 🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA☆ */
-
+require('./server')
 require('./hwkal')
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, getAggregateVotesInPollMessage, proto } = require("@whiskeysockets/baileys")
 const fs = require('fs')
